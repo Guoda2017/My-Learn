@@ -7,20 +7,20 @@ package com.guo.singleton;
  **/
 public class DCLSingleton {
 
-    private static volatile DCLSingleton DCL_SINGLETON;
+    private static volatile DCLSingleton INSTANCE;
 
     private DCLSingleton() {
 
     }
 
-    private static DCLSingleton instance() {
-        if (DCL_SINGLETON == null) {
+    private static DCLSingleton getDCLSingleton() {
+        if (INSTANCE == null) {
             synchronized (DCLSingleton.class) {
-                if (DCL_SINGLETON == null) {
-                    DCL_SINGLETON = new DCLSingleton();
+                if (INSTANCE == null) {
+                    INSTANCE = new DCLSingleton();
                 }
             }
         }
-        return DCL_SINGLETON;
+        return INSTANCE;
     }
 }
