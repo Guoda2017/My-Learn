@@ -2,7 +2,6 @@ package com.guo.juc;
 
 import java.util.Random;
 import java.util.concurrent.CyclicBarrier;
-import java.util.concurrent.Executor;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 

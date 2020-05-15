@@ -10,7 +10,12 @@ import java.lang.reflect.Proxy;
 public class Start {
 
     public static void main(String[] args) {
-       // Proxy.newProxyInstance()
+       int i = 0;
+
+        for (int j = 0; j < 5; j++) {
+            i++;
+        }
+        System.out.println(i);
     }
 
 }

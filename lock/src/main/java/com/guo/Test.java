@@ -1,47 +1,51 @@
 package com.guo;
 
-import java.util.Hashtable;
-import java.util.logging.Logger;
-import javax.naming.Context;
-import javax.naming.NamingException;
-import javax.naming.ldap.InitialLdapContext;
-import javax.naming.ldap.LdapContext;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-
 /**
  * @description:
  * @author: guofengbo
  * @create: 2020-03-05 09:42
+ *
+ * //反编译之后的字节码文件
+ * public class com.guo.Test {
+ *   public com.guo.Test();
+ *     Code:
+ *        0: aload_0
+ *        1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+ *        4: return
+ *
+ *   public static void main(java.lang.String[]) throws java.lang.Exception;
+ *     Code:
+ *        0: iconst_0   //int型0入栈 -> 栈顶 = 0
+ *        1: istore_1   //出栈赋值给变量i
+ *        2: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+ *        5: iload_1
+ *        6: invokevirtual #3                  // Method java/io/PrintStream.println:(I)V
+ *        9: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+ *       12: iload_1
+ *       13: iinc          1, 1
+ *       16: invokevirtual #3                  // Method java/io/PrintStream.println:(I)V
+ *       19: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+ *       22: iload_1
+ *       23: invokevirtual #3                  // Method java/io/PrintStream.println:(I)V
+ *       26: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+ *       29: iinc          1, 1
+ *       32: iload_1
+ *       33: invokevirtual #3                  // Method java/io/PrintStream.println:(I)V
+ *       36: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+ *       39: iload_1
+ *       40: invokevirtual #3                  // Method java/io/PrintStream.println:(I)V
+ *       43: return
+ * }
  **/
 public class Test {
 
     public static void main(String[] args) throws Exception {
 
-        //AnnotationConfigApplicationContext annotationConfigApplicationContext = new AnnotationConfigApplicationContext();
-
-        String username = "sso";
-        String password = "YOUxin869";
-        //String server = "ldap://10.60.12.12:389";
-        String server = "ldap://10.60.12.12:389";
-        try {
-            Hashtable<String, String> env = new Hashtable<String, String>();
-            //用户名称，cn,ou,dc 分别：用户，组，域
-            env.put(Context.SECURITY_PRINCIPAL, username);
-            //用户密码 cn 的密码
-            env.put(Context.SECURITY_CREDENTIALS, password);
-            //url 格式：协议://ip:端口/组,域   ,直接连接到域或者组上面
-            env.put(Context.PROVIDER_URL, server);
-            //LDAP 工厂
-            env.put(Context.INITIAL_CONTEXT_FACTORY, "com.sun.jndi.ldap.LdapCtxFactory");
-            //验证的类型     "none", "simple", "strong"
-            env.put(Context.SECURITY_AUTHENTICATION, "simple");
-            LdapContext ldapContext = new InitialLdapContext(env, null);
-            System.out.println("ldapContext:" + ldapContext);
-            System.out.println("用户" + username + "登录验证成功");
-        } catch (NamingException e) {
-            System.out.println("用户" + username + "登录验证失败");
-            System.out.println("错误信息："+e.getExplanation());
-        }
-
+        int i = 0;
+        System.out.println(i);
+        System.out.println(i++);
+        System.out.println(i);
+        System.out.println(++i);
+        System.out.println(i);
     }
 }
