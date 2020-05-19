@@ -7,7 +7,7 @@ import java.util.concurrent.CountDownLatch;
 /**
  * @description: CountDownLatch DEMO
  *
- * 同步辅助器,允许一个或多个线程一直等待,知道一组在其他线程执行的操作全部完成
+ * 同步辅助器,允许一个或多个线程一直等待,直到一组在其他线程执行的操作全部完成
  *
  * @author: guofengbo
  * @date: 2020-05-08 12:26
@@ -23,11 +23,11 @@ public class CountDownLatchDemo {
 
         Worker w1 = new Worker("张三", 2000, countDownLatch);
         Worker w2 = new Worker("李四", 5000, countDownLatch);
-        Worker w3 = new Worker("王五", 3000, countDownLatch);
+        //Worker w3 = new Worker("王五", 3000, countDownLatch);
 
         w1.start();
         w2.start();
-        w3.start();
+        //w3.start();
 
         long startTime = System.currentTimeMillis();
         countDownLatch.await();
