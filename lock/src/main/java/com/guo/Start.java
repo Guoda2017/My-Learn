@@ -1,5 +1,7 @@
 package com.guo;
 
+import java.util.Optional;
+
 /**
  * @description:
  * @author: guofengbo
@@ -8,7 +10,9 @@ package com.guo;
 public class Start {
 
     public static void main(String[] args) {
+        Test test = null;
 
+        System.out.println(Optional.ofNullable(test).isPresent());
     }
 
 }

@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4bbf4b7-1cbf-4e6b-8e11-ef4357625a1b" name="Default Changelist" comment="opt 策略模式舱室">
-      <change afterPath="$PROJECT_DIR$/object-demo/src/main/java/com/guo/juc/BlockingQueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/object-demo/src/main/java/com/guo/juc/LinkedBlockingQueueDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="f4bbf4b7-1cbf-4e6b-8e11-ef4357625a1b" name="Default Changelist" comment="opt">
+      <change afterPath="$PROJECT_DIR$/object-demo/src/main/java/com/guo/object/LocalDateDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/guofengbo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/guofengbo.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lock/src/main/java/com/guo/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock/src/main/java/com/guo/Start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lock/target/classes/HashMapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/lock/target/classes/HashMapTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lock/target/classes/MyLock$Helper.class" beforeDir="false" afterPath="$PROJECT_DIR$/lock/target/classes/MyLock$Helper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lock/target/classes/MyLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/lock/target/classes/MyLock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lock/target/classes/com/guo/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/lock/target/classes/com/guo/AppConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lock/target/classes/com/guo/Start.class" beforeDir="false" afterPath="$PROJECT_DIR$/lock/target/classes/com/guo/Start.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lock/target/classes/com/guo/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/lock/target/classes/com/guo/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/object-demo/src/main/java/com/guo/juc/CountDownLatchDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/object-demo/src/main/java/com/guo/juc/CountDownLatchDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lock/target/classes/com/guo/service/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/lock/target/classes/com/guo/service/Test1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lock/target/classes/com/guo/service/Test2.class" beforeDir="false" afterPath="$PROJECT_DIR$/lock/target/classes/com/guo/service/Test2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/object-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/object-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CASDemo01.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,15 +60,21 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/object-demo/src/main/java/com/guo" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -75,9 +88,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BlockingQueueDemo">
-    <configuration name="BlockingQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.guo.juc.BlockingQueueDemo" />
+  <component name="RunManager" selected="Application.LocalDateDemo">
+    <configuration name="ArrayBlockingQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.guo.juc.ArrayBlockingQueueDemo" />
       <module name="object-demo" />
       <extension name="coverage">
         <pattern>
@@ -89,34 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.guo.juc.CountDownLatchDemo" />
-      <module name="object-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.guo.juc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedBlockingQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.guo.juc.LinkedBlockingQueueDemo" />
-      <module name="object-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.guo.juc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadLocalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.guo.object.ThreadLocalDemo" />
+    <configuration name="LocalDateDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.guo.object.LocalDateDemo" />
       <module name="object-demo" />
       <extension name="coverage">
         <pattern>
@@ -128,12 +115,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadLocalGCDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.guo.object.ThreadLocalGCDemo" />
+    <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.guo.Start" />
+      <module name="lock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SynchronousQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.guo.juc.SynchronousQueueDemo" />
       <module name="object-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.guo.object.*" />
+          <option name="PATTERN" value="com.guo.juc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransferQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.guo.juc.TransferQueueDemo" />
+      <module name="object-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guo.juc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BlockingQueueDemo" />
-        <item itemvalue="Application.LinkedBlockingQueueDemo" />
-        <item itemvalue="Application.CountDownLatchDemo" />
-        <item itemvalue="Application.ThreadLocalGCDemo" />
-        <item itemvalue="Application.ThreadLocalDemo" />
+        <item itemvalue="Application.LocalDateDemo" />
+        <item itemvalue="Application.Start" />
+        <item itemvalue="Application.ArrayBlockingQueueDemo" />
+        <item itemvalue="Application.TransferQueueDemo" />
+        <item itemvalue="Application.SynchronousQueueDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -205,6 +218,19 @@
       <workItem from="1589788503055" duration="948000" />
       <workItem from="1589790007907" duration="555000" />
       <workItem from="1589790663942" duration="3350000" />
+      <workItem from="1589870167169" duration="703000" />
+      <workItem from="1590029515570" duration="61000" />
+      <workItem from="1590045516105" duration="225000" />
+      <workItem from="1590144582794" duration="25000" />
+      <workItem from="1590329435093" duration="862000" />
+      <workItem from="1590372460840" duration="1025000" />
+      <workItem from="1590390817755" duration="574000" />
+      <workItem from="1590399177510" duration="2930000" />
+      <workItem from="1590474462990" duration="4065000" />
+      <workItem from="1590570059026" duration="1092000" />
+      <workItem from="1590818077845" duration="3006000" />
+      <workItem from="1590823224174" duration="3951000" />
+      <workItem from="1590901430420" duration="747000" />
     </task>
     <task id="LOCAL-00001" summary="opt DCL单例">
       <created>1587219056389</created>
@@ -234,7 +260,21 @@
       <option name="project" value="LOCAL" />
       <updated>1589538392925</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="opt JUC包尝试">
+      <created>1589870180767</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589870180767</updated>
+    </task>
+    <task id="LOCAL-00006" summary="opt 队列学习">
+      <created>1590483197223</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1590483197223</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,7 +299,9 @@
     <MESSAGE value="opt 模拟Spring依赖注入" />
     <MESSAGE value="opt CountDownLatch CyclicBarrie Semaphore DemoTest" />
     <MESSAGE value="opt 策略模式尝试" />
-    <option name="LAST_COMMIT_MESSAGE" value="opt 策略模式尝试" />
+    <MESSAGE value="opt JUC包尝试" />
+    <MESSAGE value="opt 队列学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="opt 队列学习" />
   </component>
   <component name="WindowStateProjectService">
     <state width="418" height="760" key="Git.Branch.Popup" />
