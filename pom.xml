@@ -21,6 +21,7 @@
     <module>spring-demo</module>
     <module>spring-security-demo</module>
     <module>design-patterns</module>
+    <module>data-agency</module>
   </modules>
 
   <dependencies>
