@@ -20,6 +20,7 @@
     <module>object-demo</module>
     <module>spring-demo</module>
     <module>spring-security-demo</module>
+    <module>design-patterns</module>
   </modules>
 
   <dependencies>

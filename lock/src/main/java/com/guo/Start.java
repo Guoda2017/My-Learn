@@ -1,8 +1,6 @@
 package com.guo;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
+import java.text.NumberFormat;
 
 /**
  * @description:
@@ -14,7 +12,8 @@ public class Start {
 
     public static void main(String[] args) {
 
-        System.out.println(Runtime.getRuntime().availableProcessors());
+        NumberFormat.getCurrencyInstance();
+
     }
 
 }

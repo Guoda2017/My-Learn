@@ -1,6 +1,7 @@
 package com.guo;
 
 import java.util.List;
+import java.util.Optional;
 
 /**
  * @Description:
@@ -27,6 +28,10 @@ public class User {
 
     public void setUserList(List<User> userList) {
         this.userList = userList;
+    }
+
+    public void trim(){
+        Optional.ofNullable(this.name).ifPresent(data -> setName(data.trim()));
     }
 }
 
