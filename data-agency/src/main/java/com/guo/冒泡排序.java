@@ -1,7 +1,5 @@
 package com.guo;
 
-import java.util.stream.Stream;
-
 /**
  * @Description:
  * @author: guofengbo
@@ -19,7 +17,7 @@ public class 冒泡排序 {
             //从第一个开始循环比较大小
             for (int i = 0; i < end; i++) {
                 if (arr[i] > arr[i + 1]) {
-                    swap(arr, i, i+1);
+                    swap(arr, i, i + 1);
                 }
             }
         }
