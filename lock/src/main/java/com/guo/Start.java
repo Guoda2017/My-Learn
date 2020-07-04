@@ -1,7 +1,5 @@
 package com.guo;
 
-import java.text.NumberFormat;
-
 /**
  * @description:
  * @author: guofengbo
@@ -12,7 +10,10 @@ public class Start {
 
     public static void main(String[] args) {
 
-        NumberFormat.getCurrencyInstance();
+        String s = "123";
+        int i = s.lastIndexOf("(");
+        System.out.println(i);
+        //System.out.println(s.substring(0, s.lastIndexOf("(") ));
 
     }
 

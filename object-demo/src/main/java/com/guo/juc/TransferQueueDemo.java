@@ -5,7 +5,7 @@ import java.util.concurrent.LinkedTransferQueue;
 /**
  * @Description: TransferQueue可以给线程来传递任务 不像SynchronousQueue只能传递一个
  * TransferQueue只能传递一个 TransferQueue做出列表可以传好多个
- * 比较牛的地方就是它添加了一个方法叫transfer 如果我们用put就相当于一个线程来了往里面装就可以离开了
+ *  如果我们用put就相当于一个线程来了往里面装就可以离开了
  * transfer就是装完在这等着,组设等有人把它取走这个线程才回去干自己的事情
  * @author: guofengbo
  * @date: 2020-05-24 22:11
