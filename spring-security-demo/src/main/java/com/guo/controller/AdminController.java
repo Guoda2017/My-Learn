@@ -1,5 +1,8 @@
 package com.guo.controller;
 
+import com.guo.service.AbstractService;
+import com.guo.service.TestService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -13,9 +16,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/admin")
 public class AdminController {
 
+    @Autowired
+    private TestService testService;
+
     @GetMapping("/demo")
     public String demo() {
-        return "示例返回";
+        return testService.demo();
     }
 
 }
