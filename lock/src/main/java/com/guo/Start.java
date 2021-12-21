@@ -1,7 +1,5 @@
 package com.guo;
 
-import java.lang.reflect.Proxy;
-
 /**
  * @description:
  * @author: guofengbo
@@ -9,8 +7,14 @@ import java.lang.reflect.Proxy;
  **/
 public class Start {
 
+
     public static void main(String[] args) {
-       // Proxy.newProxyInstance()
+
+        String s = "123";
+        int i = s.lastIndexOf("(");
+        System.out.println(i);
+        //System.out.println(s.substring(0, s.lastIndexOf("(") ));
+
     }
 
 }

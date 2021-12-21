@@ -1,0 +1,8 @@
+spring:
+  # Spring Security配置项 对应 SecurityProperties
+  security:
+    # 配置项默认的 InMemoryUserDetailsManager 的用户账户与密码
+    user:
+      name: admin
+      password: admin
+      roles: ADMIN
