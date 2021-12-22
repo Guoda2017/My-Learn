@@ -68,6 +68,12 @@ public class AioService {
                 }
             });
 
+            try {
+                Thread.sleep(Integer.MAX_VALUE);
+            } catch (InterruptedException e) {
+                log.error("错误信息:", e);
+            }
+
         } catch (Exception e) {
             log.error("错误信息:", e);
         }

@@ -14,9 +14,9 @@ public abstract class AbstractService {
     private TestService testService;
 
     @Autowired
-    private SystemConfig systemConfig;
+    protected SystemConfig systemConfig;
 
-    public String getStr() {
+    final public String getStr() {
         return "123";
     }
 }
