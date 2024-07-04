@@ -24,4 +24,10 @@ public class AdminController {
         return testService.demo();
     }
 
+    @GetMapping("/demo2")
+    @ResponseStatus(value = HttpStatus.MOVED_TEMPORARILY)
+    public String demo2() {
+        return testService.demo();
+    }
+
 }
