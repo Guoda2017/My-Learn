@@ -10,6 +10,15 @@
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>object-demo</artifactId>
+
+  <dependencies>
+      <dependency>
+          <groupId>mysql</groupId>
+          <artifactId>mysql-connector-java</artifactId>
+          <version>8.0.23</version> <!-- 请使用最新版本 -->
+      </dependency>
+  </dependencies>
+
   <build>
     <plugins>
       <plugin>
@@ -21,6 +30,7 @@
         </configuration>
       </plugin>
     </plugins>
+
   </build>
 
 </project>
