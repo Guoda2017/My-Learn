@@ -52,14 +52,14 @@
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
     </remote-repository>
     <remote-repository>
-      <option name="id" value="spring" />
-      <option name="name" value="spring" />
-      <option name="url" value="http://nexus.in.za/nexus/content/groups/invest-maven-group/" />
-    </remote-repository>
-    <remote-repository>
       <option name="id" value="jboss" />
       <option name="name" value="jboss" />
       <option name="url" value="http://nexus.in.za/nexus/content/groups/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="spring" />
+      <option name="name" value="spring" />
+      <option name="url" value="http://nexus.in.za/nexus/content/groups/invest-maven-group/" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="jboss" />
